@@ -1,7 +1,10 @@
 var plr;
+var plrAnimation;
 function setup() {
   createCanvas(800,400);
   plr = createSprite(400,200,50,70);
+  plrAnimation = loadImage('tex/player.png');
+  plr.addImage(plrAnimation);
 }
 function draw() {
   background(0,0,0);
