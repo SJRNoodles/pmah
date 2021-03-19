@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(800,400);
-  var plr = createSprite(400,200,50,50);
+  var plr = createSprite(400,200,50,70);
 }
 
 function draw() {
