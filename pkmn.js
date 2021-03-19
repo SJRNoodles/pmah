@@ -8,15 +8,15 @@ function draw() {
   drawSprites();
   // player movements
   if(keyDown(LEFT_ARROW)){
-  plr.x-=5;
+  plr.position.x-=5;
   }
   if(keyDown(RIGHT_ARROW)){
-  plr.x+=5;
+  plr.position.x+=5;
   }
   if(keyDown(UP_ARROW)){
-  plr.y+=5;
+  plr.position.y+=5;
   }
   if(keyDown(DOWN_ARROW)){
-  plr.y-=5;
+  plr.position.y-=5;
   }
 }
