@@ -7,16 +7,16 @@ function draw() {
   background(255,255,255);  
   drawSprites();
   // player movements
-  if(keyWentDown("KeyD")){
+  if(keyDown('d')){
   plr.x=plr.x+5;
   }
-  if(keyWentDown("KeyA")){
+  if(keyDown('a')){
   plr.x=plr.x-5;
   }
-  if(keyWentDown("KeyW")){
+  if(keyDown('w')){
   plr.y=plr.y+5;
   }
-  if(keyWentDown("KeyS")){
+  if(keyDown('s')){
   plr.y=plr.y-5;
   }
 }
