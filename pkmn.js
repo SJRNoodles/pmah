@@ -4,7 +4,7 @@ function setup() {
   plr = createSprite(400,200,50,70);
 }
 function draw() {
-  background(255,255,255);
+  background(0,0,0);
   // player movements
   if(keyDown(LEFT_ARROW)){
   plr.position.x-=5;
