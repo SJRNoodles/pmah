@@ -1,8 +1,8 @@
+var plr;
 function setup() {
   createCanvas(800,400);
+  plr = createSprite(400,200,50,70);
 }
-
-var plr = createSprite(400,200,50,70);
 function draw() {
   background(255,255,255);
   // player movements
