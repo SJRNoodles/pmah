@@ -8,15 +8,15 @@ function draw() {
   drawSprites();
   // player movements
   if(keyDown('d')){
-  plr.x=plr.x+5;
+  plr.velocity.x=5;
   }
   if(keyDown('a')){
-  plr.x=plr.x-5;
+  plr.velocity.x=-5;
   }
   if(keyDown('w')){
-  plr.y=plr.y+5;
+  plr.velocity.y=5;
   }
   if(keyDown('s')){
-  plr.y=plr.y-5;
+  plr.velocity.y=-5;
   }
 }
